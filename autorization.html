@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LeverX</title>
+</head>
+<body>
+    <header class="header">         
+            <div class="header_box center">
+                <a href="index.html"><img class="logo" src="img/leverX.png" alt="logo_leverX"></a>
+                <div class="headerCreate"></div>
+        </div>
+    </header>
+
+    <form id="upload-container" method="post">
+        <div>
+            <input id="file_input" class="img_input" type="file" name="photo" multiple accept="image/*,image/jpeg">
+        <label for="file_input">+ Add Cover</label>
+        </div>
+       </form>
+
+       <div class="inscriptAbove">Enter the title of your article</div>
+       <input type="text"  class="EntTitle" placeholder="Enter Title">
+       
+       <div class="description"></div>
+       <div class="addBlock">
+       <button class="btnAddBlock">+ Add new block</button>
+       </div>
+
+       <div class="inscriptAbove">Add tag information</div>
+
+    <div class="Tags">
+        <input type="checkbox" class="button" value="Angular">
+        <label for="button">Angular</label>
+        <input type="checkbox" class="button"  value="High_quality">
+        <label for="button">High quality</label>
+        <input type="checkbox" class="button"  value="Features">
+        <label for="button">Features</label>
+        <input type="checkbox" class="button" value="RxJS">
+        <label for="button">RxJS</label>
+        <input type="checkbox" class="button"  value="APIs">
+        <label for="button">APIs</label>
+        <input type="checkbox" class="button"  value="Caching">
+        <label for="button">Caching</label>
+        <input type="checkbox" class="button"  value="Event_loop">
+        <label for="button">Event loop</label>
+        <input type="checkbox" class="button" value="Feature_requests">
+        <label for="button">Feature requests</label>
+        <input type="checkbox" class="button"  value="Angular_roadmap">
+        <label for="button">Angular roadmap</label>
+        <input type="checkbox" class="button"  value="IT">
+        <label for="button">IT</label>
+      </div>
+
+    <footer class="footer_autorize">   
+   
+            <button class="cancel">Cancel</button>
+            <button class="publish">Publish</button>
+
+</footer>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+<script src="autorization.js"></script>
+</body>
+</html>
